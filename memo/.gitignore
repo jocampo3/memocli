@@ -1,0 +1,4 @@
+venv/
+memo.egg-info
+__pycache__
+memos/
