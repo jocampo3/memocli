@@ -40,5 +40,5 @@ def display_formatted_memos(memos):
 
         click.echo(f'{k} {len(v)}')
         for item in v:
-            click.echo(f'{(" " * 2)}{item.get('id')}{(" " * 2)}{item.get("text")}')
+            click.echo(f"{(' ' * 2)}{item.get('id')}{(' ' * 2)}{item.get('text')}")
         click.echo()

@@ -1,12 +1,13 @@
 import click
 from memo.storage import load_memos, write_memos
 import hashlib
+from typing import Optional
 from memo.utils import Date
 
 @click.command()
 @click.argument('input', help='Create a new memo')
 @click.argument('day', required=False, help='Add a date to the memo (Ex: memo add "review PR on" friday)')
-def add(input, day : str | None):
+def add(input, day : Optional[str]):
     """Create a memo"""
     h = hashlib.sha256()
     h.update(f'{input} {day}'.encode())

@@ -24,4 +24,4 @@ def search(query):
     click.echo("RESULTS")
     for suggestion in suggestions:
         memo = memo_lookup[suggestion]
-        click.echo(f'{(" " * 2)}{memo.get('id')}{(" " * 2)}{memo.get("text")}')
+        click.echo(f"{(' ' * 2)}{memo.get('id')}{(' ' * 2)}{memo.get('text')}")
