@@ -24,7 +24,8 @@ Restart your terminal or reload your shell configuration.
 |---|---|
 | `memo add "text" [day]` | Create a memo |
 | `memo list` | List memos |
-| `memo memo pop [memo_id]` | Remove newest memo or remove using memo ID |
+| `memo pop [memo_id]` | Remove newest memo or remove using memo ID |
+| `memo search "text"` | Search for a memo |
 
 ## Storage
 
