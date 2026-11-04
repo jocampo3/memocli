@@ -9,7 +9,8 @@ description = "A simple CLI tool for managing terminal reminders"
 readme = "README.md"
 requires-python = ">=3.9"
 dependencies = [
-    "click>=8.0"
+    "click>=8.0",
+    "fuzzyfinder>=2.3.0"
 ]
 
 [project.scripts]
