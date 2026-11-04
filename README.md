@@ -22,10 +22,9 @@ Restart your terminal or reload your shell configuration.
 
 | Command | Description |
 |---|---|
-| `memo add "text"` | Add a memo |
-| `memo list` | List all memos |
-| `memo pop` | Remove the newest memo |
-| `memo rm <id>` | Remove a memo by ID |
+| `memo add "text" [day]` | Create a memo |
+| `memo list` | List memos |
+| `memo memo pop [memo_id]` | Remove newest memo or remove using memo ID |
 
 ## Storage
 
